@@ -4,6 +4,8 @@
 
 [English](README.en.md) · [文档](https://route.ifootoo.com/docs/)
 
+![它是怎么工作的](assets/how-it-works.gif)
+
 ## 用来做什么
 
 - **企业版**：公司给员工用 AI。统一采购模型，按部门分预算，管住数据不外泄，花费清清楚楚。
@@ -39,6 +41,20 @@ curl -fsSL https://route.ifootoo.com/install.sh | bash -s -- --edition reseller
 | 调用记录 | 每次调用的问题、回答、图片和费用都能查，按天看用量和成本 |
 | 安全 | 飞书、企业微信、钉钉、OIDC 登录；发出前自动遮住密钥和个人信息；管理操作全部留痕 |
 | 运营 | 客户注册、在线充值、兑换码、余额不足提醒（运营版） |
+
+## 看看效果
+
+**复制配置就能用**：员工用飞书 / 企业微信 / 钉钉登录，Claude Code、Codex 的配置一键复制。
+
+![接入](assets/connect.gif)
+
+**花费一张表看清**：每个部门、每个人、每种工具花了多少；预算用完自动拦住；上游出错自动换路。
+
+![预算与计费](assets/budget.gif)
+
+**敏感信息不出门**：密钥、身份证号自动打码；客户名换成代号发出，回答回来再还原。
+
+![数据保护](assets/data-protection.gif)
 
 ## 性能
 

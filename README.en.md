@@ -4,6 +4,8 @@
 
 [中文](README.md) · [Docs](https://route.ifootoo.com/docs/en/)
 
+![How it works](assets/how-it-works.gif)
+
 ## What it is for
 
 - **Enterprise edition**: give AI to your staff. One place to buy models, budgets per department, data that stays under control, costs you can see.
@@ -39,6 +41,22 @@ Then open `http://<server>:8081` and enter the setup code the installer printed.
 | Request log | The question, answer, images and cost of every call; usage and cost by day |
 | Security | Feishu, WeCom, DingTalk and OIDC sign-in; secrets and personal data masked before they leave; every admin change audited |
 | Selling | Customer sign-up, online top-up, redemption codes, low-balance reminders (Reseller) |
+
+## See it
+
+The clips are from our Chinese intro video; the screens are the real console.
+
+**Copy the config and go**: staff sign in with Feishu, WeCom or DingTalk and copy a ready Claude Code or Codex config.
+
+![Connect](assets/connect.gif)
+
+**Every cost in one table**: spend per department, person and tool; a spent budget blocks the next call; a failing upstream is routed around.
+
+![Budgets and billing](assets/budget.gif)
+
+**Sensitive data stays inside**: secrets and ID numbers are masked; customer names go out as placeholders and come back restored.
+
+![Data protection](assets/data-protection.gif)
 
 ## Performance
 
